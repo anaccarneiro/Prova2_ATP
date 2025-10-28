@@ -23,6 +23,12 @@ namespace Ex1
                 soma = vetorA[0] + vetorA[1] + vetorA[5];
             }
             Console.WriteLine("Soma das posições [0], [1] e [5] = " + soma);
+
+            for (int linha = 0; linha < vetorA.Length; linha++)
+            {
+                vetorA[4] = 100;
+                Console.WriteLine(vetorA[linha] + " ");
+            }
         }
     }
 }
