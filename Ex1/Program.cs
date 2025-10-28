@@ -18,15 +18,14 @@ namespace Ex1
             int [] vetorA = { 1, 0, 5, -2, -5, 7 };
             int soma = 0;
             
-            for (int linha = 0; linha < vetorA.Length; linha++)
-            {
-                soma = vetorA[0] + vetorA[1] + vetorA[5];
-            }
+            soma = vetorA[0] + vetorA[1] + vetorA[5];
+         
             Console.WriteLine("Soma das posições [0], [1] e [5] = " + soma);
+
+            vetorA[4] = 100;
 
             for (int linha = 0; linha < vetorA.Length; linha++)
             {
-                vetorA[4] = 100;
                 Console.WriteLine(vetorA[linha] + " ");
             }
         }
